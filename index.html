@@ -17,9 +17,9 @@
                 <h2>Start Your Order</h2>
             </div>
             <form>
-            <div>
+            <div class="inputs">
                 <label for="address-type" class="address-type">Address Type: </label>
-                <select name="address-type" id="address">
+                <select class= "addrinput" name="address-type" id="address">
                     <option value="house">House</option>
                     <option value="apartment">Apartment</option>
                     <option value="business">Business</option>
@@ -28,22 +28,18 @@
                     <option value="dormitory">Dormitory</option>
                     <option value="other">Other</option>
                 </select>
-            </div>
-            <div>
+                <br/>
                 <label for="street-address" class="street-address">Street Address: </label>
-                <input name="street-address" id="street">
-            </div>
-            <div>
+                <input class="input" name="street-address" id="street">
+                <br/>
                 <label for="suite-apt" class="suite-apt">Suite/Apt #</label>
-                <input name="suite-apt" id="suite">
-            </div>
-            <div>
+                <input class="input" name="suite-apt" id="suite">
+                <br/>
                 <label for="city" class="city">City: </label>
-                <input name="city" id="user-city" required>
-            </div>
-            <div>
+                <input class="input" name="city" id="user-city" required>
+                <br/>
                 <label for="province" class="city">Province: </label>
-                <select name="province" id="user-city" required>
+                <select class= "provinput" name="province" id="province" required>
                     <option>Alberta</option>
                     <option>BC</option>
                     <option>Manitoba</option>
@@ -57,13 +53,13 @@
                     <option>Northwest Territories</option>
                     <option>Yukon</option>
                 </select>
-                <label for ="postal-code" class="postal-code">Postal Code: </label>
-                <input name="postal-code" id="postal" required>
+                <label for ="postal-code" class="city">Postal Code: </label>
+                <input class= "postal" name="postal-code" id="postal" required>
             </div>
 
             <div class="pick-delivery"></div>
-                <button class="hover-button" >Pick Up<span class="hover-text">I am NOT in immediate danger</span></button> 
-                <button class="hover-button">Delivery<span class="hover-text">I am in immediate danger</span></button>
+                <button class="hover-button pickup" >Pick Up<span class="hover-text">I am NOT in immediate danger</span></button> 
+                <button class="hover-button delivery">Delivery<span class="hover-text">I am in immediate danger</span></button>
 
             </div>
         </form>
