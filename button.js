@@ -3,7 +3,7 @@ const button = document.getElementById('submitPizza');
 button.addEventListener('click', () => {
     console.log("hi1");
     const userPrompt = document.getElementById('special-instruct').value;
-    fetch('http://localhost:3000/button-clicked-2', {
+    fetch('http://localhost:1000/button-clicked-2', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
