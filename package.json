@@ -1,0 +1,24 @@
+{
+  "name": "pizzaathome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getAddress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vihangip/PizzaAtHome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vihangip/PizzaAtHome/issues"
+  },
+  "homepage": "https://github.com/Vihangip/PizzaAtHome#readme",
+  "dependencies": {
+    "browserify-fs": "^1.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
