@@ -1,4 +1,4 @@
-.header {
+/* .header {
 
     display: flex;
     align-items: center;
@@ -9,6 +9,27 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 50px;
+} */
+
+.image-box {
+    display: inline-block;
+    justify-content:space-between;
+    justify-content: left;
+    /* float:left; */
+  }
+
+  .start-order {
+    background-color: #FF6B00;
+    color: white;
+    display: flex;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir;
+    border-radius: 10px;
+    width: 300px; 
+    height: 50px; 
+    margin-left: 575px;
 }
 
 .help-tip{
@@ -107,33 +128,11 @@
     100% { opacity:100%; }
 }
 
-.start-order {
-    background-color: orange;
-    color: white;
-    display: flex;
-    padding:20px;
-    align-items: center;
-    justify-content: center;
-    font-family: Avenir;
-    border-radius: 10px;
-    width: 100%; 
-    height: 50px; 
-}
-
 .address-type {
     color: black;
     padding: 10px;
-    margin: 10px 0 0 0;
     width: 100%;
-    align-items: left;
     font-family: Avenir;
-}
-
-#address {
-    color: black;
-    padding: 2px;
-    width: 75%;
-    margin: 10px 0 0 0;
 }
 
 
@@ -142,18 +141,41 @@
     padding: 10px;
     margin: 10px 0;
     width: 100%;
-    align-items: left;
     font-family: Avenir;
 }
 
-#street {
+.suite-apt {
+    color: black;
+    padding: 10px;
+    margin: 100px 0;
+    font-family: Avenir;
+    font-size: 18px;
+}
+
+.inputs {
+    margin: auto;
+    margin-top: 30px;
+    text-align: right;
+    width: 600px;
+}
+
+.input {
+    color: black;
+    padding: 2px;
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    width: 400px;
+}
+
+.addrinput {
     color: black;
     padding: 2px;
     margin: 10px 0 0 0;
-    width: 75%;
+    width: 407.5px;
+    font-size: 18px;
 }
 
-.suite-apt {
+.city {
     color: black;
     padding: 10px;
     margin: 100px 0;
@@ -161,47 +183,12 @@
     font-family: Avenir;
 }
 
-#suite {
+.postal {
     color: black;
     padding: 2px;
     margin: 10px 0 0 0;
-    width: 75%;
-}
-
-.city {
-    color: black;
-    padding: 10px;
-    align-items: left;
-    font-family: Avenir;
-}
-
-#user-city {
-    color: black;
-    padding: 2px;
-    margin: 10px 0 0 0;
-    
-    
-}
-
-#postal {
-    color: black;
-    padding: 2px;
-    margin: 10px 0 0 0;
-}
-
-
-.province {
-    color: black;
-    padding: 10px;
-    align-items: left;
-    font-family: Avenir;
-}
-
-.postal-code {
-    color: black;
-    padding: 10px;
-    align-items: left;
-    font-family: Avenir;
+    width: 128px;
+    font-size: 18px;
 }
 
 
@@ -209,7 +196,7 @@
     color: black;
     padding: 10px;
     align-items: left;
-    margin: 10px 10px 10px 0;
+    margin: 40px 10px 10px 0;
     font-family: Avenir;
 }
 
@@ -223,15 +210,30 @@
 
 .hover-text {
     display: none;
+    font-size: 10px;
+}
+
+.hover-button {
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .hover-button:hover .hover-text {
     display: block;
 }
 
+.provinput {
+    color: black;
+    padding: 2px;
+    margin: 40px 0 0 0;
+    width: 140px;
+    font-size: 18px;
+}
+
 
 body {
     align-items: center;
     text-align: center;
+    font-size: 18px;
 }
 
