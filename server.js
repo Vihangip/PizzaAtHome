@@ -5,7 +5,6 @@ const app = express();
 const port = 1000;
 const fs = require('fs');
 
-
 app.use(cors());
 
 app.use(express.static('public'));
