@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pizza at Home</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+        </head>
+        <body>
+            <div class="header">
+                <div class="logo">
+                    <img src="mainLogo.png" id="logo" />
+                  </div>
+            </div>
+            <div class="pizza-fixed"><img src="fixed=pizza.png" alt="fixed pizza img"></div>
+            <div class="page">
+                <div class="subheadings"><h2>Size</h2></div>
+                <div class="sizes">
+                <span class="small"></span>
+                <span class="medium"></span>
+                <span class="large"></span>
+                </div>
+                <div class="subheadings"><h2>Cheese</h2></div>
+                <div>
+                <img class='cheese-img' src="cheese.png" alt="cheese">
+                <label for="cheese" class="cheese"></label>
+                <select name="cheese" id="cheese-type">
+                    <option>Normal</option>
+                    <option>Light - I see signs of abuse</option>
+                    <option>Medium - I am being abused, but it is not severe</option>
+                    <option>Extra - I am severely being abused</option>
+                    </select>
+                </div>
+
+                <div class="subheadings"><h2>Sauce</h2></div>
+                <div class="checkbox-group">
+                <div class="checkbox">
+                    <input type="checkbox" id="marinara" name="marinara" value="Physical">
+                    <label for="marinara">Marinara</label>
+                    <div class="help-tip">
+                        <p>Physical abuse</p>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="white" name="white" value="Sexual">
+                    <label for="white">White</label>
+                    <div class="help-tip">
+                        <p>Sexual abuse</p>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="pesto" name="pesto" value="Psychological">
+                    <label for="pesto">Pesto</label>
+                    <div class="help-tip">
+                        <p>Psychological abuse</p>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="bbq" name="bbq" value="Emotional">
+                    <label for="bbq">BBQ</label>
+                    <div class="help-tip">
+                        <p>Emotional abuse</p>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="none" name="none" value="Stalking">
+                    <label for="none">No sauce</label>
+                    <div class="help-tip">
+                        <p>Stalking</p>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="ranch" name="ranch" value="Financial">
+                    <label for="ranch">Ranch</label>
+                    <div class="help-tip">
+                        <p>Financial abuse</p>
+                    </div>
+                </div>
+            </div>
+
+
+                <div class="subheadings"><h2>Toppings</h2></div>
+                <h3>Choose meats</h3>
+
+                <div class="checkbox-group">
+                <div class="checkbox">
+                    <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                    <div class="help-tip">
+                        <p>Has the physical violence increased in severity or frequency over the past year?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="salami" name="salami" value="salami">
+                    <label for="salami">Salami</label>
+                    <div class="help-tip">
+                        <p>Has he ever used a weapon against you or threatened you with a weapon?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="sausage" name="sausage" value="sausage">
+                    <label for="sausage">Sausage</label>
+                    <div class="help-tip">
+                        <p>Does he ever try to choke you? </p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="ham" name="ham" value="ham">
+                    <label for="ham">Ham</label>
+                    <div class="help-tip">
+                        <p>Does he own a gun?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="bacon" name="bacon" value="bacon">
+                    <label for="bacon">Bacon</label>
+                    <div class="help-tip">
+                        <p>Has he ever forced you to have sex when you did not wish to do so?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="chicken" name="chicken" value="chicken">
+                    <label for="chicken">Chicken</label>
+                    <div class="help-tip">
+                        <p>Does he use drugs? By drugs, I mean “uppers” pr amphetamines, speed, angel dust, cocaine, “crack”, street drugs or mixtures. </p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="steak" name="steak" value="steak">
+                    <label for="steak">Steak</label>
+                    <div class="help-tip">
+                        <p>Is he unemployed?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="beef" name="beef" value="beef">
+                    <label for="beef">Beef</label>
+                    <div class="help-tip">
+                        <p>Have you ever threatened or tried to commit suicide?</p>
+                    </div>
+                </div>
+                </div>
+
+                <h3>Choose non-meats</h3>
+
+                <div class="checkbox-group">
+                <div class="checkbox">
+                    <input type="checkbox" id="pineapple" name="pineapple" value="pineapple">
+                    <label for="pineapple">Pineapple</label>
+                    <div class="help-tip">
+                        <p>Does he threaten to kill you and/or do you believe he is capable of killing you?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="tomato" name="tomato" value="tomato">
+                    <label for="tomato">Tomatoes</label>
+                    <div class="help-tip">
+                        <p>Is he drunk every day or almost every day? (In terms of quantity of alcohol.)</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="olives" name="olives" value="olives">
+                    <label for="olives">Olives</label>
+                    <div class="help-tip">
+                        <p>Does he control most or all of your daily activities? For instance: does he tell you who you can be friends with, when you can see your family, how much money you can use, or when you can take the car?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="pepper" name="pepper" value="pepper">
+                    <label for="pepper">Peppers</label>
+                    <div class="help-tip">
+                        <p>Does he threaten to kill you and/or do you believe he is capable of killing you?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="pineapple" name="pineapple" value="pineapple">
+                    <label for="pineapple">Jalapeno</label>
+                    <div class="help-tip">
+                        <p>Is he violently and constantly jealous of you?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="mushroom" name="mushroom" value="mushroom">
+                    <label for="mushroom">Mushroom</label>
+                    <div class="help-tip">
+                        <p>Have you ever threatened or tried to commit suicide?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="Onion" name="onion" value="onion">
+                    <label for="onion">Onion</label>
+                    <div class="help-tip">
+                        <p>Does he follow or spy on you, leave threatening notes, destroy your property, or call you when you don’t want him to?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="spinach" name="spinach" value="spinach">
+                    <label for="spinach">Spinach</label>
+                    <div class="help-tip">
+                        <p>Does he threaten to harm your children?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="feta" name="feta" value="feta">
+                    <label for="feta">Feta</label>
+                    <div class="help-tip">
+                        <p>Have you left him during the past year?</p>
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="parmesan" name="parmesan" value="parmesan">
+                    <label for="parmesan">Parmesan</label>
+                    <div class="help-tip">
+                        <p>Do you currently have another (different) intimate partner?</p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="subheadings special"><h2>Special Instructions</h2>
+                    <p>Any additional info you would like to share</p>
+                </div>
+                <input class="instructions" type="text" id="special-instruct" name="special-instruct"  maxlength="900" placeholder="Is there a good time to call or meet you?">
+                <a> <button class="submit-btn" onclick="location.href='end.html'" >SUBMIT</button> </a>
+            </div>
+            <script src="/button.js"></script>
+        </body>
+        </html>
