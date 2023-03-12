@@ -1,4 +1,4 @@
-.header {
+/* .header {
 
     display: flex;
     align-items: center;
@@ -9,7 +9,12 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 50px;
-}
+} */
+
+.image-box {
+    display: inline-block;
+    justify-content: space-between;
+  }
 
 .help-tip{
 	position: relative;
