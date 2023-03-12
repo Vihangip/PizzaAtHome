@@ -13,8 +13,24 @@
 
 .image-box {
     display: inline-block;
-    justify-content: space-between;
+    justify-content:space-between;
+    justify-content: left;
+    /* float:left; */
   }
+
+  .start-order {
+    background-color: #FF6B00;
+    color: white;
+    display: flex;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir;
+    border-radius: 10px;
+    width: 300px; 
+    height: 50px; 
+    margin-left: 575px;
+}
 
 .help-tip{
 	position: relative;
@@ -110,19 +126,6 @@
 @keyframes fadeIn {
     0% { opacity:0; }
     100% { opacity:100%; }
-}
-
-.start-order {
-    background-color: orange;
-    color: white;
-    display: flex;
-    padding:18px;
-    align-items: center;
-    justify-content: center;
-    font-family: Avenir;
-    border-radius: 10px;
-    width: 100%; 
-    height: 50px; 
 }
 
 .address-type {
