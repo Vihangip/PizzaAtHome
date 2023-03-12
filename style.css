@@ -11,6 +11,11 @@
     line-height: 50px;
 } */
 
+body {
+    background-image: linear-gradient(to bottom right, rgb(250, 244, 221), rgb(248, 239, 196));
+    padding-left: 30px
+}
+
 .image-box {
     /* display: inline-block;
     justify-content:space-between; */
@@ -22,11 +27,12 @@
   }
 
  .logo {
-    justify-content: center;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 70px;
     margin-left: 100px;
     height: 100px;
+    padding-bottom: 15px;
   }
 
   .start-order {
@@ -171,17 +177,41 @@
 
 .sizes {
     margin-left: 20px;
+
 }
+
 
 .subheadings {
     color: white;
     background-color:#FF6B00;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 10px;
     padding-left: 20px;
+    align-items: center;
+    justify-content: center;
     width: 517px;
     height: 40px;
     margin-bottom: 30px;
+    box-shadow: 5px 5px 10px rgb(229, 186, 105);
+    border-radius: 2;
+}
+
+.special {
+    height: 80px;
+}
+
+#cheese-type {
+    width: 65px;
+    height: 25px;
+}
+
+.page {
+    float: left;
+}
+
+.pizza-fixed {
+    float: right;
+    position: fixed;
+    left:60%;
 }
 
 h3 {
@@ -189,15 +219,19 @@ h3 {
     margin-left: 10px;
 }
 
+
+
 .submit-btn {
     color: white;
     background-color: black;
     border: none;
     border-radius: 10px;
-    width: 80px;
-    height: 20px;
+    width: 80%;
+    height: 40px;
     display:list-item;
     margin-top: 10px;
+    font-size: 20px;
+    display: inline;
 }
 
 .checkbox-group {
