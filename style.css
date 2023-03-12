@@ -78,6 +78,7 @@ body {
     transform-origin: 100% 0%;
     -webkit-animation: fadeIn 0.3s ease;
     animation: fadeIn 0.3s ease;
+
 }
 
 /* The tooltip */
@@ -92,7 +93,6 @@ body {
 	width: 170px;
 	height: auto;
 	position: absolute;
-	left: 50%;
 	transform: translate(-50%, 5%);
 	border-radius: 3px;
 	border: 1px solid #E0E0E0;
@@ -100,7 +100,8 @@ body {
 	color: #37393D;
 	font-size: 12px;
 	line-height: 18px;
-	z-index: 99;
+    left: 1100%;
+    top: -10px;
 }
 
 .help-tip p a {
@@ -114,14 +115,14 @@ body {
 
 /* The pointer of the tooltip */
 .help-tip p:before { 
-	position: absolute;
+	position:initial;
 	content: '';
 	width: 0;
 	height: 0;
 	border: 10px solid transparent;
 	border-bottom-color:#FFFFFF;
 	top: -9px;
-	left: 50%;
+	right: 75%;
 	transform: translate(-50%, -50%);
 }
 
@@ -304,6 +305,7 @@ h3 {
 .checkbox {
     display: inline-block;
     width: 220px;
+    
 }
 
 .cheese-img {
