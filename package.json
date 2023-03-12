@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cohere-ai": "^6.0.0"
+  },
+  "scripts":{
+    "foo":"echo 'hello'"
+  }
+}
