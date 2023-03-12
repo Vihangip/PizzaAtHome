@@ -4,15 +4,68 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pizza at Home</title>
+        <link rel="stylesheet" href="style.css">
         </head>
-
         <body>
-            <h1> hello world </h1>
-            <h1> hello world part 2 </h1>
-            <h1> anova testing branch </h1>
-            <h1> annika testing branch </h1>
-            <h1> jasvir testing branch </h1>
-            <h1> another annika testing branch </h1>
-        </body>
-        </html>
+            <div class="header">
+                <img src=# alt='Pizza at Home Logo'>
+                <h1 class="title">Pizza At Home</h1>
+            </div>
+
+            <div class="start-order">
+                <h2>Start Your Order</h2>
+            </div>
+            <form>
+            <div>
+                <label for="address-type" class="address-type">Address Type: </label>
+                <select name="address-type" id="address">
+                    <option value="house">House</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="business">Business</option>
+                    <option value="campus">Campus/Base</option>
+                    <option value="hotel">Hotel</option>
+                    <option value="dormitory">Dormitory</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="street-address" class="street-address">Street Adress: </label>
+                <input name="street-address" id="street">
+            </div>
+            <div>
+                <label for="suite-apt" class="suite-apt">Suite/Apt #</label>
+                <input name="suite-apt" id="suite">
+            </div>
+            <div>
+                <label for="city" class="city">City: </label>
+                <input name="city" id="user-city" required>
+            </div>
+            <div>
+                <label for="province" class="city">Province: </label>
+                <select name="province" id="user-city" required>
+                    <option>Alberta</option>
+                    <option>BC</option>
+                    <option>Manitoba</option>
+                    <option>NB</option>
+                    <option>Newfoundland and Labrador</option>
+                    <option>Nova Scotia</option>
+                    <option>PEI</option>
+                    <option>Quebec</option>
+                    <option>Ontario</option>
+                    <option>Nunavut</option>
+                    <option>Northwest Territories</option>
+                    <option>Yukon</option>
+                </select>
+                <label for ="postal-code" class="postal-code">Postal Code: </label>
+                <input name="postal-code" id="postal" required>
+            </div>
+
+            <div class="pick-delivery">
+                <button class="pickup">Pick Up</button> 
+                <button class="delivery">Delivery</button>
+            </div>
+        </form>
+    </body>
+    </html>
 
