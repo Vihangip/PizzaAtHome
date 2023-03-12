@@ -53,7 +53,7 @@ body {
 .help-tip{
 	position: relative;
 	top: -7px;
-	right: 0;
+	left: 10px;
 	transform: translate(-50%, -50%);
 	margin: auto;
 	text-align: center;
@@ -195,7 +195,7 @@ body {
 .subheadings {
     color: white;
     background-color:#FF6B00;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Avenir;
     padding-left: 20px;
     width: 517px;
     height: 30px;
@@ -214,6 +214,7 @@ h3 {
 .special {
     height: 35px;
 }
+
 
 #cheese-type {
     width: 65px;
@@ -281,6 +282,7 @@ h3 {
     margin: 0 auto;
     width: 45%;
     top: 30px;
+    opacity: 0.75;
 }
 
 .submit-btn {
@@ -294,6 +296,7 @@ h3 {
     margin-top: 10px;
     font-size: 20px;
     display: inline;
+    margin-bottom: 50px;
 }
 
 .checkbox-group {
@@ -305,6 +308,7 @@ h3 {
 .checkbox {
     display: inline-block;
     width: 220px;
+    font-family: Avenir;
     
 }
 
@@ -463,5 +467,43 @@ h3 {
     margin-top: 170px;
     padding: 10px;
     font-family: Avenir;
+}
+
+.text {
+    display:none;
+}
+
+
+.hoverable:hover.text1 ~ .text1 {
+    display: block;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: Avenir;
+    margin: 10px 10px 10px;
+    position: relative;
+    right: 10%
+}
+
+.hoverable:hover.text2 ~ .text2 {
+    display: block;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: Avenir;
+    margin: 10px 10px 10px;
+    align-items: center;
+    position: relative;
+    left: 13%;
+}
+
+
+.hoverable:hover.text3 ~ .text3 {
+    display: block;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: Avenir;
+    margin: 10px 10px 10px;
+    align-items: center;
+    position: relative;
+    left: 25%;
 }
 
