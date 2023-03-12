@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const cohere = require('cohere-ai');
 const app = express();
-const port = 1000;
+const port = 5500;
 const fs = require('fs');
 
 app.use(cors());
@@ -52,12 +52,20 @@ app.post('/button-clicked-2', async (req, res) => {
       console.log('Prediction data saved to prediction.json');
     });
 
+    // added
+    // fs.writeFile('newprediction.json', JSON.stringify(response.body), function (err) {
+    //     if (err) throw err;
+    //     console.log('Prediction data saved to prediction.json');
+    //   });
+
     res.json({ Prediction: `${response.body.generations[0].text}` });
 })
 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
+
+
 
 //     // write the prediction data to a JSON file
 //     fs.writeFile('prediction.json', JSON.stringify(response.body), function (err) {
