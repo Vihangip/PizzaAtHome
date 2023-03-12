@@ -12,7 +12,7 @@
 } */
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(250, 244, 221), rgb(248, 239, 196));
+    background-image: linear-gradient(to bottom right, rgb(white));
     padding-left: 30px
 }
 
@@ -42,7 +42,7 @@ body {
     padding:20px;
     align-items: center;
     justify-content: center;
-    font-family: Avenir ;
+    font-family: Avenir;
     border-radius: 10px;
     width: 500px; 
     height: 35px; 
@@ -181,23 +181,38 @@ body {
 
 }
 
+.info {
+    padding-top: -10px;
+}
+
+.more-cheese {
+    padding-left: 190px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
 .subheadings {
     color: white;
     background-color:#FF6B00;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-left: 20px;
-    align-items: center;
-    justify-content: center;
     width: 517px;
-    height: 40px;
+    height: 30px;
     margin-bottom: 30px;
     box-shadow: 5px 5px 10px rgb(229, 186, 105);
     border-radius: 2;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    color: #FF6B00;
+    margin-left: 10px;
 }
 
 .special {
-    height: 80px;
+    height: 35px;
 }
 
 #cheese-type {
@@ -209,18 +224,64 @@ body {
     float: left;
 }
 
-.pizza-fixed {
+.cart {
     float: right;
     position: fixed;
     left:60%;
+    width: 30%;
+    height: 50%;
+    margin-right: 30px;
+    background-color: w;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
 }
 
-h3 {
-    color: #FF6B00;
-    margin-left: 10px;
+.cart-header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.Heading{
+    font-size: 20px;
+    font-family: Avenir;
+    font-weight: 700;
+    color: #6B184E;
+}
+
+.Action{
+    font-size: 14px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
 }
 
 
+.checkout-button{
+    position: relative;
+    display: block;
+    margin:0 auto;
+    top: 40%;
+    background-color: #FF6B00;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 50%;
+    height: 10%;
+}
+
+.cart-pizza {
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    width: 45%;
+    top: 30px;
+}
 
 .submit-btn {
     color: white;
@@ -252,6 +313,7 @@ h3 {
     height:auto;
     margin-bottom: -20px;
     margin-top: -20px;
+    padding-right: 20px;
 }
 
 .instructions {
@@ -260,7 +322,7 @@ h3 {
 }
 
 .start-order {
-    background-color: orange;
+    background-color: #FF6B00;
     color: white;
     display: flex;
     padding:20px;
