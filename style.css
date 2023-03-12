@@ -452,3 +452,14 @@ h3 {
     background-repeat: no-repeat;
 } */
 
+.thank-you {
+    color: #FF6B00;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    margin-top: 170px;
+    padding: 10px;
+    font-family: Avenir;
+}
+
