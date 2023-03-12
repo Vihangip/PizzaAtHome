@@ -13,7 +13,16 @@
                     <img src="mainLogo.png" id="logo" />
                   </div>
             </div>
-            <div class="pizza-fixed"><img src="fixed=pizza.png" alt="fixed pizza img"></div>
+            <!-- <div class="pizza-fixed"><img src="fixed=pizza.png" alt="fixed pizza img"></div> -->
+            <div class="cart">
+                <div class="cart-header">
+                    <h3 class="Heading">Shopping Cart</h3>
+                    <h5 class="Action">Remove all</h5>
+                    </div>
+                    <img class="cart-pizza" src="fixed=pizza.png" alt="pizza logo">
+                <button class="checkout-button">Checkout</button>
+            </div>
+        </div>
             <div class="page">
                 <div class="subheadings"><h2>Size</h2></div>
                 <div class="sizes">
@@ -22,7 +31,7 @@
                 <span class="large"></span>
                 </div>
                 <div class="subheadings"><h2>Cheese</h2></div>
-                <div>
+                <div class="more-cheese">
                 <img class='cheese-img' src="cheese.png" alt="cheese">
                 <label for="cheese" class="cheese"></label>
                 <select name="cheese" id="cheese-type">
@@ -234,7 +243,6 @@
             </div>
 
                 <div class="subheadings special"><h2>Special Instructions</h2>
-                    <p>Any additional info you would like to share</p>
                 </div>
                 <input class="instructions" type="text" id="special-instruct" name="special-instruct"  maxlength="900" placeholder="Is there a good time to call or meet you?">
                 <button class="submit-btn">SUBMIT</button>
