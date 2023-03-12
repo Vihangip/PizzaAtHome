@@ -1,7 +1,14 @@
 .header {
+
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Avenir;
+    font-family: 'Just Me Again Down Here';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
 }
 
 .help-tip{
@@ -177,5 +184,131 @@ h3 {
 .instructions {
     width: 500px;
     height: 100px;
+.start-order {
+    background-color: orange;
+    color: white;
+    display: flex;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir;
+    border-radius: 10px;
+    width: 100%; 
+    height: 50px; 
+}
+
+.address-type {
+    color: black;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    align-items: left;
+    font-family: Avenir;
+}
+
+#address {
+    color: black;
+    padding: 2px;
+    width: 75%;
+    margin: 10px 0 0 0;
+}
+
+
+.street-address {
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    align-items: left;
+    font-family: Avenir;
+}
+
+#street {
+    color: black;
+    padding: 2px;
+    margin: 10px 0 0 0;
+    width: 75%;
+}
+
+.suite-apt {
+    color: black;
+    padding: 10px;
+    margin: 100px 0;
+    align-items: left;
+    font-family: Avenir;
+}
+
+#suite {
+    color: black;
+    padding: 2px;
+    margin: 10px 0 0 0;
+    width: 75%;
+}
+
+.city {
+    color: black;
+    padding: 10px;
+    align-items: left;
+    font-family: Avenir;
+}
+
+#user-city {
+    color: black;
+    padding: 2px;
+    margin: 10px 0 0 0;
+    
+    
+}
+
+#postal {
+    color: black;
+    padding: 2px;
+    margin: 10px 0 0 0;
+}
+
+
+.province {
+    color: black;
+    padding: 10px;
+    align-items: left;
+    font-family: Avenir;
+}
+
+.postal-code {
+    color: black;
+    padding: 10px;
+    align-items: left;
+    font-family: Avenir;
+}
+
+
+.pickup {
+    color: black;
+    padding: 10px;
+    align-items: left;
+    margin: 10px 10px 10px 0;
+    font-family: Avenir;
+}
+
+.delivery {
+    color: black;
+    padding: 10px;
+    align-items: left;
+    font-family: Avenir;
+    margin: 10px 10px 10px 0;
+}
+
+.hover-text {
+    display: none;
+}
+
+.hover-button:hover .hover-text {
+    display: block;
+}
+
+
+body {
+    align-items: center;
+    text-align: center;
 }
 
